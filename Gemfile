@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.1'
+gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -53,7 +53,7 @@ gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'zurb-foundation'
-gem 'puma'
+gem 'puma', '~> 2.7.0'
 
 group :development do
   gem 'better_errors'
